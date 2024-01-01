@@ -1,1 +1,1 @@
-"#duo" 
+c'est une application d'apprendre de la langue Francais, en utilisant c++ comme une langague de programmation et Qt creator comme un GUI pour gerer les intractions entre l'utilisateur et les intarfaces 
