@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>courgrammaire</class>
+ <widget class="QMainWindow" name="courgrammaire">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>697</width>
+    <height>896</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="nextButton">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>780</y>
+      <width>621</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 85, 0);
+font: 700 12pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>next</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="questionLabel">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>220</y>
+      <width>621</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 10pt &quot;Arial&quot;;</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="answerLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>360</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 12pt &quot;Arial&quot;;
+color: rgb(0, 0, 0);
+border-bottom-color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>530</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
+font: 700 16pt &quot;Times New Roman&quot;;
+border-radius: 20px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="logoo">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>101</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/img/img/logo.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startQuizButton">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>780</y>
+      <width>621</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 85, 0);
+font: 700 12pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Let's start the quiz</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lessonLabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>150</y>
+      <width>661</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>6</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 6pt &quot;Arial&quot;;
+border-radius:15px;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:700; text-decoration: underline;&quot;&gt;Les Articles Définis:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Les articles définis désignent des éléments spécifiques. &lt;/p&gt;&lt;p&gt;Ils sont utilisés pour parler de quelque chose de précis. Il existe trois formes d'articles définis :&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Masculin singulier :&lt;/span&gt; &amp;quot;le&amp;quot; (pour les noms masculins singuliers, par exemple, &amp;quot;le livre&amp;quot;)&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Féminin singulier : &lt;/span&gt;&amp;quot;la&amp;quot; (pour les noms féminins singuliers, par exemple, &amp;quot;la table&amp;quot;)&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Pluriel (masculin ou féminin) :&lt;/span&gt; &amp;quot;les&amp;quot; (pour les noms au pluriel, qu'ils soient masculins ou féminins,&lt;/p&gt;&lt;p&gt; par exemple, &amp;quot;les livres&amp;quot;, &amp;quot;les tables&amp;quot;)&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:700; text-decoration: underline;&quot;&gt;Les Articles Indéfinis&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Les articles indéfinis ne désignent pas de manière spécifique un élément. Ils sont utilisés pour parler de quelque &lt;/p&gt;&lt;p&gt;chose de manière générale. Il existe deux formes d'articles indéfinis :&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Masculin singulier :&lt;/span&gt; &amp;quot;un&amp;quot; (pour les noms masculins singuliers, par exemple, &amp;quot;un livre&amp;quot;)&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Féminin singulier :&lt;/span&gt; &amp;quot;une&amp;quot; (pour les noms féminins singuliers, par exemple, &amp;quot;une table&amp;quot;)&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:700; text-decoration: underline;&quot;&gt;Les Articles Partitifs&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Les articles partitifs sont utilisés pour indiquer une partie d'un tout ou une quantité indéfinie. Ils sont souvent utilisés&lt;/p&gt;&lt;p&gt; avec des expressions de quantité indéfinie. Il existe trois formes d'articles partitifs :&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Masculin singulier &lt;/span&gt;: &amp;quot;du&amp;quot; (pour les noms masculins singuliers, par exemple, &amp;quot;du pain&amp;quot;)&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Féminin singulier : &lt;/span&gt;&amp;quot;de la&amp;quot; (pour les noms féminins singuliers, par exemple, &amp;quot;de la confiture&amp;quot;)&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Pluriel : &lt;/span&gt;&amp;quot;des&amp;quot; (pour les noms au pluriel, qu'ils soient masculins ou féminins,&lt;/p&gt;&lt;p&gt; par exemple, &amp;quot;des pommes&amp;quot;, &amp;quot;des livres&amp;quot;)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignJustify|Qt::AlignTop</set>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+    <property name="margin">
+     <number>14</number>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar_">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>651</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(255, 85, 0);
+border-radius:20px;
+border-color: rgb(255, 85, 0);</string>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="submButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>520</y>
+      <width>261</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 85, 0);
+color: rgb(255, 255, 255);
+font: 700 16pt &quot;Times New Roman&quot;;
+border-radius: 20px;</string>
+    </property>
+    <property name="text">
+     <string>submit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>10</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/img/img/bc-r.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>nextButton</zorder>
+   <zorder>questionLabel</zorder>
+   <zorder>answerLineEdit</zorder>
+   <zorder>label</zorder>
+   <zorder>logoo</zorder>
+   <zorder>startQuizButton</zorder>
+   <zorder>progressBar_</zorder>
+   <zorder>submButton</zorder>
+   <zorder>back</zorder>
+   <zorder>lessonLabel</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>697</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

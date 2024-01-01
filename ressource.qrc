@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/bg.PNG</file>
+        <file>img/bgg.PNG</file>
+        <file>img/logo.png</file>
+        <file>img/logog.PNG</file>
+        <file>img/logoe.PNG</file>
+        <file>img/loho.PNG</file>
+        <file>img/bggi.PNG</file>
+        <file>img/bggl.PNG</file>
+        <file>img/bc-r.png</file>
+        <file>img/A.PNG</file>
+        <file>img/B.PNG</file>
+        <file>img/C.PNG</file>
+        <file>img/D.PNG</file>
+        <file>img/E.PNG</file>
+        <file>img/F.PNG</file>
+        <file>img/G.PNG</file>
+        <file>img/H.PNG</file>
+        <file>img/I.PNG</file>
+        <file>img/J.PNG</file>
+        <file>img/K.PNG</file>
+        <file>img/L.PNG</file>
+        <file>img/M.PNG</file>
+        <file>img/N.PNG</file>
+        <file>img/O.PNG</file>
+        <file>img/Q.PNG</file>
+        <file>img/R.PNG</file>
+        <file>img/S.PNG</file>
+        <file>img/U.PNG</file>
+        <file>img/V.PNG</file>
+        <file>img/W.PNG</file>
+        <file>img/Y.PNG</file>
+        <file>img/Z.PNG</file>
+        <file>img/P.PNG</file>
+        <file>img/T.PNG</file>
+        <file>img/X.PNG</file>
+    </qresource>
+</RCC>
