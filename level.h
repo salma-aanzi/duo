@@ -19,7 +19,6 @@ public:
 
 private slots:
     void on_base_clicked();
-
     void on_sauter_clicked();
 
 private:

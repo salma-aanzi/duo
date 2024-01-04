@@ -35,5 +35,6 @@
         <file>img/P.PNG</file>
         <file>img/T.PNG</file>
         <file>img/X.PNG</file>
+        <file>img/crt.png</file>
     </qresource>
 </RCC>

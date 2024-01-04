@@ -47,3 +47,24 @@ void base::on_gonjugaison_clicked()
     con->show();
 }
 
+
+void base::on_certi_clicked()
+{
+    //fct to hide the Mainwindow
+    this->hide();
+    //fct to acces to others window
+    certificat *ik = new certificat();
+    ik->show();
+
+}
+
+
+void base::on_lexique_clicked()
+{
+    //fct to hide the Mainwindow
+    this->hide();
+    //fct to acces to others window
+    Lexique *po= new Lexique();
+    po->show();
+}
+

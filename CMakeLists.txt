@@ -49,6 +49,10 @@ else()
             courgrammaire.h courgrammaire.cpp courgrammaire.ui
             conjugaison.h conjugaison.cpp conjugaison.ui
             courcong.h courcong.cpp courcong.ui
+            certificat.h certificat.cpp certificat.ui
+            quizmanager.h quizmanager.cpp
+            lexique.h lexique.cpp lexique.ui
+            courlexi.h courlexi.cpp courlexi.ui
         )
     endif()
 endif()

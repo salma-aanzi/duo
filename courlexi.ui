@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>courlexi</class>
+ <widget class="QMainWindow" name="courlexi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>696</width>
+    <height>892</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="questionLabel">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>170</y>
+      <width>621</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 10pt &quot;Arial&quot;;</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="submButton">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>470</y>
+      <width>261</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 85, 0);
+color: rgb(255, 255, 255);
+font: 700 16pt &quot;Times New Roman&quot;;
+border-radius: 20px;</string>
+    </property>
+    <property name="text">
+     <string>submit</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>480</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
+font: 700 16pt &quot;Times New Roman&quot;;
+border-radius: 20px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="answerLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>310</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 12pt &quot;Arial&quot;;
+color: rgb(0, 0, 0);
+border-bottom-color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lessonLabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>661</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>6</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 6pt &quot;Arial&quot;;
+border-radius:15px;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:700; text-decoration: underline;&quot;&gt;Catégories de Mots :&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Les mots de la langue française appartiennent à différentes catégories en fonction de leur rôle dans une phrase. Voici quelques catégories de mots essentielles :&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:700; text-decoration: underline;&quot;&gt;Les Noms :&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Les noms désignent des personnes, des lieux ou des choses.&lt;/p&gt;&lt;p&gt;Exemple : &amp;quot;le livre&amp;quot;, &amp;quot;Paris&amp;quot;, &amp;quot;chaise&amp;quot;, &amp;quot;chat&amp;quot;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:700; text-decoration: underline;&quot;&gt;Les Verbes :&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Les verbes expriment des actions, des états ou des processus.&lt;/p&gt;&lt;p&gt;Exemple : &amp;quot;manger&amp;quot;, &amp;quot;jouer&amp;quot;, &amp;quot;être&amp;quot;, &amp;quot;penser&amp;quot;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:700; text-decoration: underline;&quot;&gt;Les Adjectifs :&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Les adjectifs décrivent ou qualifient un nom en lui ajoutant des caractéristiques.&lt;/p&gt;&lt;p&gt;Exemple : &amp;quot;grand&amp;quot;, &amp;quot;bleu&amp;quot;, &amp;quot;intelligent&amp;quot;, &amp;quot;joyeux&amp;quot;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:700; text-decoration: underline;&quot;&gt;Les Adverbes :&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Les adverbes modifient un verbe, un adjectif ou un autre adverbe et précisent comment, où, quand, dans quelle mesure quelque chose est fait.&lt;/p&gt;&lt;p&gt;Exemple : &amp;quot;rapidement&amp;quot;, &amp;quot;bien&amp;quot;, &amp;quot;maintenant&amp;quot;, &amp;quot;très&amp;quot;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:700; text-decoration: underline;&quot;&gt;Les Pronoms :&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Les pronoms remplacent un nom ou se rapportent à une personne ou une chose déjà mentionnée.&lt;/p&gt;&lt;p&gt;Exemple : &amp;quot;il&amp;quot;, &amp;quot;elle&amp;quot;, &amp;quot;ceux-ci&amp;quot;, &amp;quot;celui-ci&amp;quot;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:700; text-decoration: underline;&quot;&gt;Les Conjonctions :&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Les conjonctions servent à relier des mots, des groupes de mots ou des propositions dans une phrase.&lt;/p&gt;&lt;p&gt;Exemple : &amp;quot;et&amp;quot;, &amp;quot;mais&amp;quot;, &amp;quot;ou&amp;quot;, &amp;quot;donc&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignJustify|Qt::AlignTop</set>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+    <property name="margin">
+     <number>14</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>10</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/img/img/bc-r.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="logoo">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>101</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/img/img/logo.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nextButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>780</y>
+      <width>621</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 85, 0);
+font: 700 12pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>next</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startQuizButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>780</y>
+      <width>621</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 85, 0);
+font: 700 12pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);
+border-radius:20px;</string>
+    </property>
+    <property name="text">
+     <string>Let's start the quiz</string>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>lessonLabel</zorder>
+   <zorder>answerLineEdit</zorder>
+   <zorder>questionLabel</zorder>
+   <zorder>submButton</zorder>
+   <zorder>back</zorder>
+   <zorder>logoo</zorder>
+   <zorder>nextButton</zorder>
+   <zorder>startQuizButton</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>696</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

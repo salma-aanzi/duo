@@ -5,6 +5,8 @@
 #include "alphabet.h"
 #include"grammaire.h"
 #include"conjugaison.h"
+#include"certificat.h"
+#include"lexique.h"
 
 namespace Ui {
 class base;
@@ -24,6 +26,10 @@ private slots:
     void on_grammaire_clicked();
 
     void on_gonjugaison_clicked();
+
+    void on_certi_clicked();
+
+    void on_lexique_clicked();
 
 private:
     Ui::base *ui;
