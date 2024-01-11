@@ -7,6 +7,7 @@
 #include"conjugaison.h"
 #include"certificat.h"
 #include"lexique.h"
+#include "profiel.h"
 
 namespace Ui {
 class base;
@@ -30,6 +31,8 @@ private slots:
     void on_certi_clicked();
 
     void on_lexique_clicked();
+
+    void on_profe_clicked();
 
 private:
     Ui::base *ui;

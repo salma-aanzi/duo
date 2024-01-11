@@ -53,6 +53,7 @@ else()
             quizmanager.h quizmanager.cpp
             lexique.h lexique.cpp lexique.ui
             courlexi.h courlexi.cpp courlexi.ui
+            profiel.h profiel.cpp profiel.ui
         )
     endif()
 endif()

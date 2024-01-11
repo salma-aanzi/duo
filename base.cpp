@@ -68,3 +68,13 @@ void base::on_lexique_clicked()
     po->show();
 }
 
+
+void base::on_profe_clicked()
+{    //fct to hide the Mainwindow
+    this->hide();
+    //fct to acces to others window
+    profiel *lp= new profiel();
+    lp->show();
+
+}
+

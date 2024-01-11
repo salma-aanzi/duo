@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QMessageBox>
 #include "test.h"
+#include "profiel.h"
 
 namespace Ui {
 class level;
@@ -20,6 +21,8 @@ public:
 private slots:
     void on_base_clicked();
     void on_sauter_clicked();
+
+    void on_profe_clicked();
 
 private:
     Ui::level *ui;

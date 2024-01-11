@@ -87,6 +87,24 @@ border-radius: 20px;</string>
      <iconset theme="accessories-dictionary"/>
     </property>
    </widget>
+   <widget class="QPushButton" name="profe">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>790</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 85, 0);
+font: 700 11pt &quot;Arial&quot;;
+border-radius:15px;</string>
+    </property>
+    <property name="text">
+     <string>S</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

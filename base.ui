@@ -270,6 +270,24 @@ border-radius:20px;</string>
      <string>TextLabel</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="profe">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>800</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 85, 0);
+font: 700 11pt &quot;Arial&quot;;
+border-radius:10px;</string>
+    </property>
+    <property name="text">
+     <string>S</string>
+    </property>
+   </widget>
    <zorder>label_6</zorder>
    <zorder>label_5</zorder>
    <zorder>logoo</zorder>
@@ -283,6 +301,7 @@ border-radius:20px;</string>
    <zorder>gonjugaison</zorder>
    <zorder>label_4</zorder>
    <zorder>orthographe</zorder>
+   <zorder>profe</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

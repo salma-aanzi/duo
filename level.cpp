@@ -48,3 +48,12 @@ void level::on_sauter_clicked()
 
 }
 
+
+void level::on_profe_clicked()
+{        this->hide();
+    //fct to acces to others window
+    profiel *pr = new profiel();
+    pr->show();
+
+}
+
